@@ -9,7 +9,7 @@ export const getAllPlayers = async () => {
   return data.data.players
 }
 export const getSinglePlayer = async (playerId) => {
-  const { data } = await axios.get(BASE_URL + '/' + playerId)
+  const { data } = await axios.get(BASE_URL +'/'+  playerId)
   console.log('data', data)
   return data.data.player
 }

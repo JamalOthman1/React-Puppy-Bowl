@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getAllPlayers } from "../API/index"
+
+
+
 export default function AllPlayers() {
   const navigate = useNavigate()
   const [players, setPlayers] = useState([])
