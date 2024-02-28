@@ -10,7 +10,7 @@ export default function NewPlayerForm() {
   const [image, setImage] = useState('')
 
     
-    export default function NewPlayerForm() {
+    
   
   async function handleSubmit(e) {
     e.preventDefault()
@@ -42,4 +42,3 @@ export default function NewPlayerForm() {
     </div>
     <input type='submit' />
   </form>
-}
